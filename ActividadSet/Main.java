@@ -121,6 +121,7 @@ public class Main {
         listado.add(b5);
         listado.add(b6);
         listado.add(b7);
+        listado.add(pluton8842);
 
         System.out.println("\n-------- ANTES --------");
         for (CuerpoCeleste cc: listado) {
@@ -135,7 +136,7 @@ public class Main {
         }
         System.out.println("-------------------------");
 
-        System.out.println("\n Y si quiero hacer la INTERSECCIÓN, únicamente quedarían los planetas (Excepto el Planeta Enano)");
+        System.out.println("\n Y si quiero hacer la INTERSECCIÓN, únicamente quedarían los planetas");
         System.out.println("porque son los datos en común que hay entre los dos conjuntos.");
 
         listado.addAll(lunas); // Vuelvo a añadir para hacer la prueba
